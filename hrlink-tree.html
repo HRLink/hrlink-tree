@@ -1,0 +1,133 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../polymer/lib/mixins/mutable-data.html">
+<link rel="import" href="hrlink-tree-node.html">
+
+<dom-module id="hrlink-tree">
+  <template>
+    <style>
+       :host {
+        display: block;
+        cursor: default;
+        user-select: none;
+      }
+    </style>
+
+    <dom-repeat items="{{__dataForItems(data, fieldForItems)}}">
+      <template>
+        <hrlink-tree-node data="{{item}}" field-for-value="[[fieldForValue]]" field-for-display="[[fieldForDisplay]]" field-for-items="[[fieldForItems]]"
+          indent="[[indent]]" selected-items="{{selectedItems}}" selected-values="{{selectedValues}}"></hrlink-tree-node>
+      </template>
+    </dom-repeat>
+  </template>
+
+  <script>
+    /**
+     * `hrlink-tree`
+     * A tree view
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class HrlinkTree extends Polymer.MutableData(Polymer.Element) {
+      static get is() { return 'hrlink-tree'; }
+      static get properties() {
+        return {
+          data: {
+            type: Object,
+            value: () => { return {}; }
+          },
+          indent: {
+            type: Number,
+            value: () => { return 0; }
+          },
+          fieldForValue: {
+            type: String,
+            reflectToAttribute: true
+          },
+          fieldForDisplay: {
+            type: String,
+            reflectToAttribute: true
+          },
+          fieldForItems: {
+            type: String,
+            reflectToAttribute: true
+          },
+          fieldForSelected: {
+            type: String,
+            reflectToAttribute: true
+          },
+          selectedItems: {
+            type: Array,
+            notify: true,
+            observer: '__handleSelectedItemsChanged'
+          },
+          selectedValues: {
+            type: Array,
+            notify: true,
+            observer: '__handleSelectedValuesChanged'
+          }
+        };
+      }
+      connectedCallback() {
+        super.connectedCallback();
+
+        this.addEventListener('node-checked-changed', (event) => {
+          this.__onNodeChechedChanged(event);
+        });
+      }
+      __dataForItems(data, fieldForItems) {
+        if (data && fieldForItems) {
+          return data[fieldForItems];
+        }
+        return null;
+      }
+      __handleSelectedItemsChanged(items) {
+        console.log(items);
+        debugger;
+      }
+      __handleSelectedValuesChanged(ids) {
+        console.log(ids);
+      }
+      __onNodeChechedChanged(event) {
+        const data = event.detail.data;
+        const checked = event.detail.checked;
+        const itemValue = data[this.fieldForValue];
+        const selectedItems = this.selectedItems || [];
+        const selectedValues = this.selectedValues || [];
+
+        let foundIndex = selectedItems.indexOf(data);
+
+        if (-1 !== foundIndex) {
+          if (!checked) {
+            selectedItems.splice(foundIndex, 1);
+            // this.splice('selectedItems', foundIndex, 1);
+          }
+        } else if (checked) {
+          selectedItems.push(data);
+          // this.push('selectedItems', data);
+        }
+
+        foundIndex = selectedValues.indexOf(itemValue);
+
+        if (-1 !== foundIndex) {
+          if (!checked) {
+            selectedValues.splice(foundIndex, 1);
+            // this.splice('selectedValues', foundIndex, 1);
+          }
+        } else if (checked) {
+          selectedValues.push(itemValue);
+          // this.push('selectedValues', itemValue);
+        }
+
+        // this.notifyPath('selectedItems');
+        // this.notifyPath('selectedValues');
+        this.set('selectedItems', selectedItems);
+        this.set('selectedValues', selectedValues);
+        // this.set('selectedValues', Object.create(this.selectedValues));
+      }
+    }
+
+    window.customElements.define(HrlinkTree.is, HrlinkTree);
+  </script>
+</dom-module>

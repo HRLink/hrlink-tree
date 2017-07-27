@@ -1,0 +1,219 @@
+{
+    "children": [{
+        "type": "Territory",
+        "name": "North America",
+        "children": [{
+            "type": "Country",
+            "name": "USA",
+            "children": [{
+                "type": "City",
+                "name": "Redwood City",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Frederick, MD",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Canada",
+            "children": [{
+                "type": "City",
+                "name": "Vancouver",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Toronto",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Mexico",
+            "children": [{
+                "type": "City",
+                "name": "Mexico City",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Chihuahua",
+                "children": null
+            }]
+        }]
+    }, {
+        "type": "Territory",
+        "name": "Europe, ME, Africa",
+        "children": [{
+            "type": "Country",
+            "name": "England",
+            "children": [{
+                "type": "City",
+                "name": "Nottingham",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "London",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Netherlands",
+            "children": [{
+                "type": "City",
+                "name": "Amsterdam",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Haaksbergen",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Italy",
+            "children": [{
+                "type": "City",
+                "name": "Ferrara",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Milan",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Kenya",
+            "children": [{
+                "type": "City",
+                "name": "Kampala",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Croatia",
+            "children": [{
+                "type": "City",
+                "name": "Split",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Dubrovnik",
+                "children": null
+            }]
+        }]
+    }, {
+        "type": "Territory",
+        "name": "South America, Caribbean",
+        "children": [{
+            "type": "Country",
+            "name": "Brazil",
+            "children": [{
+                "type": "City",
+                "name": "Rio de Janeiro",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Brasilia",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Argentina",
+            "children": [{
+                "type": "City",
+                "name": "Buenos Aires",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Chile",
+            "children": [{
+                "type": "City",
+                "name": "Santiago",
+                "children": null
+            }]
+        }]
+    }, {
+        "type": "Territory",
+        "name": "Central and South Asia",
+        "children": [{
+            "type": "Country",
+            "name": "Russian Federation",
+            "children": [{
+                "type": "City",
+                "name": "Moscow",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Yekaterinburg",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "India",
+            "children": [{
+                "type": "City",
+                "name": "Mumbai",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Bangalore",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Kazakhstan",
+            "children": [{
+                "type": "City",
+                "name": "Astana",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Turkmenistan",
+            "children": [{
+                "type": "City",
+                "name": "Ashgabat",
+                "children": null
+            }]
+        }]
+    }, {
+        "type": "Territory",
+        "name": "East Asia and Pacific",
+        "children": [{
+            "type": "Country",
+            "name": "Australia",
+            "children": [{
+                "type": "City",
+                "name": "Sydney",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Canberra",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "China",
+            "children": [{
+                "type": "City",
+                "name": "Beijing",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Chengdu",
+                "children": null
+            }]
+        }, {
+            "type": "Country",
+            "name": "Japan",
+            "children": [{
+                "type": "City",
+                "name": "Tokyo",
+                "children": null
+            }, {
+                "type": "City",
+                "name": "Osaka",
+                "children": null
+            }]
+        }]
+    }]
+}

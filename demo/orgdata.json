@@ -1,0 +1,244 @@
+{
+  "OrgList": [
+    {
+      "OrgCode": "oc_0001",
+      "OrgName": "总部",
+      "OrgRelID": "or_0001",
+      "OrgList": [
+        {
+          "OrgCode": "oc_0009",
+          "OrgName": "财务部",
+          "OrgRelID": "or_1002",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0010",
+          "OrgName": "人力资源部",
+          "OrgRelID": "or_1003",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0011",
+          "OrgName": "营运部",
+          "OrgRelID": "or_1004",
+          "OrgList": null
+        }
+      ]
+    },
+    {
+      "OrgCode": "oc_0005",
+      "OrgName": "湖北",
+      "OrgRelID": "or_0005",
+      "OrgList": [
+        {
+          "OrgCode": "oc_0028",
+          "OrgName": "武汉分部",
+          "OrgRelID": "or_1021",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0029",
+          "OrgName": "宜昌分部",
+          "OrgRelID": "or_1022",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0030",
+          "OrgName": "恩施分部",
+          "OrgRelID": "or_1023",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0031",
+          "OrgName": "荆州分部",
+          "OrgRelID": "or_1024",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0032",
+          "OrgName": "咸宁分部",
+          "OrgRelID": "or_1025",
+          "OrgList": null
+        }
+      ]
+    },
+    {
+      "OrgCode": "oc_0006",
+      "OrgName": "安徽",
+      "OrgRelID": "or_0006",
+      "OrgList": [
+        {
+          "OrgCode": "oc_0034",
+          "OrgName": "芜湖分部",
+          "OrgRelID": "or_1027",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0035",
+          "OrgName": "马鞍山分部",
+          "OrgRelID": "or_1028",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0036",
+          "OrgName": "宁国分部",
+          "OrgRelID": "or_1029",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0037",
+          "OrgName": "泾县分部",
+          "OrgRelID": "or_1030",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0033",
+          "OrgName": "德化分部",
+          "OrgRelID": "or_1026",
+          "OrgList": null
+        }
+      ]
+    },
+    {
+      "OrgCode": "oc_0003",
+      "OrgName": "深圳",
+      "OrgRelID": "or_0003",
+      "OrgList": [
+        {
+          "OrgCode": "oc_0018",
+          "OrgName": "洪湖分部",
+          "OrgRelID": "or_1011",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0019",
+          "OrgName": "福田分部",
+          "OrgRelID": "or_1012",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0020",
+          "OrgName": "梅林分部",
+          "OrgRelID": "or_1013",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0021",
+          "OrgName": "罗湖分部",
+          "OrgRelID": "or_1014",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0022",
+          "OrgName": "新界分部",
+          "OrgRelID": "or_1015",
+          "OrgList": null
+        }
+      ]
+    },
+    {
+      "OrgCode": "oc_0004",
+      "OrgName": "上海",
+      "OrgRelID": "or_0004",
+      "OrgList": [
+        {
+          "OrgCode": "oc_0023",
+          "OrgName": "黄浦分部",
+          "OrgRelID": "or_1016",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0024",
+          "OrgName": "浦东新区分部",
+          "OrgRelID": "or_1017",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0025",
+          "OrgName": "宝山分部",
+          "OrgRelID": "or_1018",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0026",
+          "OrgName": "长宁分部",
+          "OrgRelID": "or_1019",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0027",
+          "OrgName": "静安分部",
+          "OrgRelID": "or_1020",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0002",
+          "OrgName": "北京",
+          "OrgRelID": "c7ac8d10-952a-4d96-9db6-b9ac9a48390d",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "fffff",
+          "OrgName": "2222233",
+          "OrgRelID": "58a61103-ced0-48e8-89f8-bd858b5f462b",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0035",
+          "OrgName": "马鞍山分部",
+          "OrgRelID": "292b3e14-b38b-4d68-91c4-4f01cb1e4888",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0016",
+          "OrgName": "周口分部",
+          "OrgRelID": "29e28e02-85a5-486d-9db1-4eb5d7719340",
+          "OrgList": null
+        }
+      ]
+    },
+    {
+      "OrgCode": "oc_0007",
+      "OrgName": "浙江",
+      "OrgRelID": "or_0007",
+      "OrgList": [
+        {
+          "OrgCode": "oc_0039",
+          "OrgName": "苏州分部",
+          "OrgRelID": "or_1032",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0040",
+          "OrgName": "嘉兴分部",
+          "OrgRelID": "or_1033",
+          "OrgList": null
+        },
+        {
+          "OrgCode": "oc_0041",
+          "OrgName": "宁波分部",
+          "OrgRelID": "or_1034",
+          "OrgList": null
+        }
+      ]
+    },
+    {
+      "OrgCode": "oc_0012",
+      "OrgName": "市场部",
+      "OrgRelID": "ae29b647-703e-4145-a5df-864fe3219a8a",
+      "OrgList": null
+    },
+    {
+      "OrgCode": "oc_0020",
+      "OrgName": "梅林分部",
+      "OrgRelID": "812dfc33-20c5-49e7-9959-155015a67bbf",
+      "OrgList": null
+    },
+    {
+      "OrgCode": "oc_0034",
+      "OrgName": "芜湖分部",
+      "OrgRelID": "7719689f-2817-49d3-b23a-603df008b71f",
+      "OrgList": null
+    }
+  ]
+}
