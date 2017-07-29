@@ -83,11 +83,10 @@
         return null;
       }
       __handleSelectedItemsChanged(items) {
-        console.log(items);
-        debugger;
+        // TODO: fix it
       }
       __handleSelectedValuesChanged(ids) {
-        console.log(ids);
+        // TODO: fix it
       }
       __onNodeChechedChanged(event) {
         const data = event.detail.data;
@@ -101,11 +100,9 @@
         if (-1 !== foundIndex) {
           if (!checked) {
             selectedItems.splice(foundIndex, 1);
-            // this.splice('selectedItems', foundIndex, 1);
           }
         } else if (checked) {
           selectedItems.push(data);
-          // this.push('selectedItems', data);
         }
 
         foundIndex = selectedValues.indexOf(itemValue);
@@ -113,18 +110,13 @@
         if (-1 !== foundIndex) {
           if (!checked) {
             selectedValues.splice(foundIndex, 1);
-            // this.splice('selectedValues', foundIndex, 1);
           }
         } else if (checked) {
           selectedValues.push(itemValue);
-          // this.push('selectedValues', itemValue);
         }
 
-        // this.notifyPath('selectedItems');
-        // this.notifyPath('selectedValues');
         this.set('selectedItems', selectedItems);
         this.set('selectedValues', selectedValues);
-        // this.set('selectedValues', Object.create(this.selectedValues));
       }
     }
 
